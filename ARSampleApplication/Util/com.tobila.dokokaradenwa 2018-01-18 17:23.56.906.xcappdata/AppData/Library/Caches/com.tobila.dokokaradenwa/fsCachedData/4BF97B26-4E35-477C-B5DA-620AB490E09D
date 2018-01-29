@@ -1,0 +1,430 @@
+﻿@charset 'utf-8';
+/*--------
+COMMON CSS
+--------------*/
+
+
+body {
+	font-size: 16px;
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+*:first-child {
+	margin-top: 0 !important;
+}
+*:last-child {
+	margin-bottom: 0 !important;
+}
+
+/*______ KDDI use _______*/
+
+#use{
+	width: auto;
+	margin: 10px 0;
+	padding-top: 25px;
+	line-height: 28px;
+}
+
+#use .box{
+	margin-bottom: 50px;
+}
+
+.border_bottom_2_61b965{
+	border-bottom: 2px dotted #61b965;
+}
+
+#use h2{
+	background-color: #61b965;
+	border-radius: 25px;
+	margin: 15px 5% 25px;
+	padding: 10px 2% 8px;
+	text-align: center;
+	width: 86%;
+}
+
+#use h2 img{
+	max-width: 90%;
+	margin: 0 5%;
+}
+
+.width90{
+	width: 90%!important;
+	margin: 0 5%;
+}
+
+.width85{
+	width: 85%!important;
+	margin: 0 7.5%;
+}
+
+#use img{
+	width: 100%;
+	text-align: center;
+}
+
+#use .text_area{
+	width: auto;
+	padding: 20px 5%;
+	color: #2b832f;
+	margin-top: 30px;
+}
+
+#use p{
+	font-size: 130%;
+	line-height: 30px;
+}
+
+
+
+/*______ KDDI p-policy _______*/
+
+#p-policy {
+	width: auto;
+	margin: 10px 5%;
+	padding-top: 25px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#p-policy h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 120%;
+}
+
+#p-policy h3{
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#p-policy h4{
+	font-weight: bold;
+	margin-top: 20px;
+	padding-left: 6px;
+}
+
+#p-policy .h4_area{
+	width: auto;
+	margin: 12px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	padding: 13px 5%;
+}
+
+#p-policy h4{
+	font-weight: bold;
+	margin-top: 20px;
+	padding-left: 6px;
+}
+
+#p-policy .h4_area ul li,
+#p-policy ul li{
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#p-policy td{
+	display: block;
+	width: 100%;
+	float; left;
+}
+
+#p-policy .border-bottom_1do_ddd{
+	border-bottom: 1px dotted #ddd;
+}
+
+#p-policy .font-w-bold{
+	font-weight: bold;
+}
+
+#p-policy ul{
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 12px 5%;
+}
+
+
+/*______ KDDI terms _______*/
+
+#terms {
+	width: auto;
+	margin: 10px 5%;
+	padding-top: 25px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#terms h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 120%;
+}
+
+#terms h3{
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+
+
+
+/*______ KDDI purchase for v1.4 _______*/
+#purchase {
+	width: auto;
+	margin: 10px 5%;
+	padding-top: 18px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+#purchase h2{
+	font-weight: bolder;
+	margin-bottom: 3px;
+	text-align: center;
+	font-size: 95%;
+}
+
+#purchase h3{
+	font-weight: bold;
+	margin-top: 20px;
+}
+#purchase #main p {
+	font-size: 80%;
+	line-height: 1.7;
+}
+
+
+
+
+
+/*______ KDDI Q&A _______*/
+
+#kddi_q_a #main{
+	padding: 10px;
+	/*font-size: 16px;*/
+}
+
+#kddi_q_a h2 {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+#kddi_q_a h3 {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+#kddi_q_a p {
+	margin-bottom: 15px;
+}
+
+#kddi_q_a ul {
+	margin-bottom: 15px;
+}
+
+#kddi_q_a ul ul {
+	margin-bottom: 0;
+}
+
+
+/*______ adjust ________*/
+
+
+#terms .brkal {
+	word-break: break-all;
+}
+
+#terms .txtLink {
+	display: inline-block;
+	padding: 12px 0;
+}
+
+/*______ 追加CSS ________*/
+
+.inner_text--001{
+	text-indent: 10px;
+}
+.inner_text--002{
+	text-indent: 20px;
+}
+.inner_text--003{
+	margin-bottom: 5px;
+}
+
+#kddi_q_a .q_a_table{
+	margin-bottom: 40px;
+}
+
+#kddi_q_a .q_area{
+	border-bottom: 1px dotted #d6d6d6;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#kddi_q_a .a_area{
+	width: 100%;
+}
+
+
+#kddi_q_a table .q_icon_td{
+	border: 0 solid;
+	width: 30px;
+	font-size: 130%;
+	color: #c9c9c9;
+	text-align: center;
+	padding: 10px 15px 0 0;
+}
+
+#kddi_q_a .q_icon_bg{
+	background-color: #A2D08B;
+	color: #fff;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+#kddi_q_a table .q_text_td{
+	border: 0 solid;
+	width: auto;
+	font-size: 110%;
+	line-height: 26px;
+	padding: 0 15px 7px 0;
+	font-weight: bold;
+	color: #5c5c5c;
+}
+
+#kddi_q_a table .a_icon_td{
+	border: 0 solid;
+	width: 30px;
+	vertical-align: top;
+	font-size: 130%;
+	padding: 0px 15px 0 0;
+	color: #888888;
+	text-align: center;
+}
+
+#kddi_q_a .a_icon_bg{
+	background-color: #61B965;
+	color: #fff;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+#kddi_q_a table .a_text_td{
+	width: auto;
+}
+
+#kddi_q_a .a_text_box{
+	width: auto;
+	font-size: 105%;
+	line-height: 25px;
+	color: #5c5c5c;
+}
+
+.td_no{
+	width: 20px;
+	padding: 5px 0 5px;
+	font-weight: bold;
+}
+
+.td_text{
+	padding: 5px 0 5px;
+}
+
+/* #purchaseDetail
+ ---------- --------- --------- ---------- ---------- */
+#purchaseDetail {
+	width: auto;
+	margin: 10px 5%;
+	padding-top: 15px;
+}
+#purchaseDetail h2.chapter {
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 1.5;
+	width: auto;
+	background-color: lightgray;
+	padding: 2px 5px;
+}
+#purchaseDetail h3.section {
+	font-size: 95%;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 2px 5px;
+}
+#purchaseDetail div.contents {
+	font-size: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+#purchaseDetail div.contents span.caution {
+	display: inline-block;
+	color: red;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#purchaseDetail div.contents p {
+	font-weight: bold;
+}
+#purchaseDetail div.contents p.emphasis {
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+#purchaseDetail div.contents ul {
+	margin-left: 18px;
+	margin-right: 10px;
+}
+#purchaseDetail div.contents ul li {
+	list-style-type: square
+}
+#purchaseDetail div.descriptionWithImg {
+	font-size: 90%;
+	line-height: 1.5;
+	margin-top: 8px;
+	margin-bottom: 25px;
+}
+#purchaseDetail div.descriptionWithImg p {
+	text-align: center;
+	margin-top: 35px;
+}
+#purchaseDetail div.descriptionWithImg p img {
+	width: 80%;
+	margin-bottom: 8px;
+	border: solid 1px;
+}
+#purchaseDetail div.descriptionWithImg p span.description {
+	display: inline-block;
+    text-align: left;
+    margin: 0 5px;
+}
+#purchaseDetail div.contact {
+	font-size: 90%;
+}
+#purchaseDetail div.contact p {
+}
+#purchaseDetail div.contact div.contactBox {
+	margin-top: 8px;
+	border: solid 1.5px #0000cd;
+}
+#purchaseDetail div.contact div.contactBox p {
+	font-weight: bold;
+	text-align: center;
+	font-size: 90%;
+}
+#purchaseDetail div.contact div.contactBox dl {
+	margin: 0 10px;
+}
+#purchaseDetail div.contact div.contactBox dl dt {
+	float: left;
+}
+#purchaseDetail div.contact div.contactBox dl dd {
+}

@@ -1,0 +1,4 @@
+{"identity":{"generator":"Crashlytics iOS SDK/3.8.4","build_version":"121","display_version":"3.8.4","api_key":"17f575f3e8ec1f010db6ce84e56cf92631dd9ba4","started_at":1516263479,"session_id":"ae4d4169ba0f4b30acfa9dfc5520daa6","install_id":"BE1B7DE5-9A86-405B-AF5F-F4BB3A8FA66E","beta_token":null,"absolute_log_timestamps":true}}
+{"host":{"model":"iPhone6,1","machine":"N51AP","os_build_version":"14G60","os_display_version":"10.3.3","platform":"ios","locale":"ja_JP"}}
+{"application":{"bundle_id":"com.tobila.dokokaradenwa","custom_bundle_id":null,"build_version":"21","display_version":"1.8","extension_id":null}}
+{"executable":{"architecture":"arm64","uuid":"5c6adde20d3036eab7acf542f0889c8c","base":4295131136,"size":1441792,"encrypted":false,"minimum_sdk_version":"10.0.0","built_sdk_version":"11.2.0"}}
